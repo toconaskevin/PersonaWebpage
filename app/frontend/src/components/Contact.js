@@ -21,7 +21,7 @@ const Contact = () => {
         setIsSubmitted(true);
     }
     return (
-        <>
+        <div className="contact">
             <div className='form-container'>
                 {/* <span className='close-btn'>×</span> */}
                 <div className='form-content-left'>
@@ -33,7 +33,7 @@ const Contact = () => {
                         <FormSuccess />
                     )}
             </div>
-        </>
+        </div>
     );
 };
 

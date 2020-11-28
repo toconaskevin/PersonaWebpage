@@ -55,8 +55,8 @@ const useForm = (callback, validateInfo) => {
                     email: values.email,
                     message: values.message
                 })
-                .then( res => { console.log(res) })
-                .catch( err => { console.log(err) })
+                    .then(res => { console.log(res) })
+                    .catch(err => { console.log(err) })
 
                 callback();
             }
@@ -79,7 +79,7 @@ const Form = ({ submitForm }) => {
                 <h1>
                     Reach me out today! Send me an email by filling out the
                     information below.
-        </h1>
+                </h1>
                 <div className='form-inputs'>
                     <label className='form-label'>Subject</label>
                     <input
@@ -119,7 +119,7 @@ const Form = ({ submitForm }) => {
                 </div>
                 <button className='form-input-btn' type='submit'>
                     Send
-        </button>
+                </button>
             </form>
         </div>
     );
